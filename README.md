@@ -1,8 +1,6 @@
-# Welcome to React Router!
+# Digital Yearbook
 
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+A modern, production-ready digital yearbook application built with React Router.
 
 ## Features
 
@@ -49,10 +47,10 @@ npm run build
 To build and run using Docker:
 
 ```bash
-docker build -t my-app .
+docker build -t digital-yearbook .
 
 # Run the container
-docker run -p 3000:3000 my-app
+docker run -p 3000:3000 digital-yearbook
 ```
 
 The containerized application can be deployed to any platform that supports Docker, including:
