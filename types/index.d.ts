@@ -1,4 +1,4 @@
-export interface Yearbook {
+interface Yearbook {
     id: string;
     title: string;
     year: number;
@@ -7,7 +7,7 @@ export interface Yearbook {
     students: Student[];
 }
 
-export interface Student {
+interface Student {
     id: string;
     firstName: string;
     lastName: string;
