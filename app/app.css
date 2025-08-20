@@ -6,3 +6,9 @@
         'Mona Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+main {
+    min-h-screen: 100vh;
+    padding-top: 2.5rem;
+    background: linear-gradient(to bottom right, #e0ecff, #ffffff, #dbeafe);
+}

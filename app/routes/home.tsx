@@ -1,29 +1,27 @@
-import type { Route } from './+types/home';
-import Button from '../components/Button';
-import StudentCard from '../components/StudentCard';
 import NavBar from '../components/NavBar';
-import { students } from '../../constants';
-
-export function meta({}: Route.MetaArgs) {
-    return [
-        { title: 'Digital Yearbook - Home' },
-        { name: 'description', content: 'Welcome to our Digital Yearbook!' },
-    ];
-}
+import Footer from '~/components/Footer';
 
 export default function Home() {
     return (
-        <main>
-            <div className="min-h-screen bg-gray-50">
+        <main className="min-h-screen ">
+            <div>
                 <NavBar />
-                <div className="p-8">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
-                        {students.map((student: Student) => (
-                            <StudentCard key={student.id} student={student} />
-                        ))}
-                    </div>
+                <div className="flex flex-col items-center justify-center mt-32">
+                    <h1 className="text-6xl font-extrabold text-blue-900 mb-8 text-center drop-shadow-lg">
+                        Welcome to the Digital Yearbook
+                    </h1>
+                    <p className="text-2xl text-gray-700 mb-12 text-center max-w-2xl">
+                        Explore memories, achievements, and connections. Browse yearbooks, discover
+                        student profiles, and celebrate every class.
+                    </p>
+                    <a href="/yearbook">
+                        <button className="px-12 py-6 bg-blue-900 text-white rounded-full text-2xl font-semibold shadow-xl hover:bg-blue-700 transition-all duration-150">
+                            View Yearbooks
+                        </button>
+                    </a>
                 </div>
             </div>
+            <Footer />
         </main>
     );
 }

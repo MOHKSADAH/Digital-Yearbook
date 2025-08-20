@@ -1,3 +1,5 @@
+import type { Student, Yearbook } from '../types';
+
 export const students: Student[] = [
     {
         id: '1',
@@ -44,7 +46,8 @@ export const yearbook: Yearbook[] = [
         id: 'yearbook-2025',
         title: 'Digital Yearbook 2025',
         year: 2025,
-        description: 'Pioneers of the post-digital age, the class of 2025 pushed boundaries in AI ethics and sustainable tech',
+        description:
+            'Pioneers of the post-digital age, the class of 2025 pushed boundaries in AI ethics and sustainable tech',
         coverImagePath: 'https://ui-avatars.com/api/?name=YB+2025&background=3a86ff&color=fff',
         students: students,
     },
@@ -52,7 +55,8 @@ export const yearbook: Yearbook[] = [
         id: 'yearbook-2024',
         title: 'Legacy Yearbook 2024',
         year: 2024,
-        description: 'Overcoming pandemic challenges, these graduates demonstrated remarkable resilience in hybrid learning environments',
+        description:
+            'Overcoming pandemic challenges, these graduates demonstrated remarkable resilience in hybrid learning environments',
         coverImagePath: 'https://ui-avatars.com/api/?name=YB+2024&background=8338ec&color=fff',
         students: students,
     },
@@ -60,7 +64,8 @@ export const yearbook: Yearbook[] = [
         id: 'yearbook-2023',
         title: 'Visionaries Edition 2023',
         year: 2023,
-        description: 'The first class to experience full campus reopening, setting new standards for community engagement',
+        description:
+            'The first class to experience full campus reopening, setting new standards for community engagement',
         coverImagePath: 'https://ui-avatars.com/api/?name=YB+2023&background=ff006e&color=fff',
         students: students,
     },
@@ -68,7 +73,8 @@ export const yearbook: Yearbook[] = [
         id: 'yearbook-2022',
         title: 'Phoenix Yearbook 2022',
         year: 2022,
-        description: 'Graduates who adapted to unprecedented changes, emerging stronger through remote collaboration',
+        description:
+            'Graduates who adapted to unprecedented changes, emerging stronger through remote collaboration',
         coverImagePath: 'https://ui-avatars.com/api/?name=YB+2022&background=fb5607&color=fff',
         students: students,
     },
@@ -76,7 +82,8 @@ export const yearbook: Yearbook[] = [
         id: 'yearbook-2021',
         title: 'Horizon Yearbook 2021',
         year: 2021,
-        description: 'Pioneers of virtual commencement, proving innovation thrives even in challenging times',
+        description:
+            'Pioneers of virtual commencement, proving innovation thrives even in challenging times',
         coverImagePath: 'https://ui-avatars.com/api/?name=YB+2021&background=ffbe0b&color=fff',
         students: students,
     },
@@ -92,7 +99,8 @@ export const yearbook: Yearbook[] = [
         id: 'yearbook-2019',
         title: 'Trailblazers Yearbook 2019',
         year: 2019,
-        description: 'Record-breaking research publications and startup launches from this exceptional class',
+        description:
+            'Record-breaking research publications and startup launches from this exceptional class',
         coverImagePath: 'https://ui-avatars.com/api/?name=YB+2019&background=8338ec&color=fff',
         students: students,
     },
@@ -116,7 +124,8 @@ export const yearbook: Yearbook[] = [
         id: 'yearbook-2016',
         title: 'Global Scholars Edition',
         year: 2016,
-        description: 'International collaboration reached new heights with this cohort of globally-minded graduates',
+        description:
+            'International collaboration reached new heights with this cohort of globally-minded graduates',
         coverImagePath: 'https://ui-avatars.com/api/?name=YB+2016&background=ffbe0b&color=fff',
         students: students,
     },
@@ -132,7 +141,8 @@ export const yearbook: Yearbook[] = [
         id: 'yearbook-2014',
         title: 'Renaissance Edition',
         year: 2014,
-        description: 'A perfect blend of arts and sciences defined this exceptionally creative class',
+        description:
+            'A perfect blend of arts and sciences defined this exceptionally creative class',
         coverImagePath: 'https://ui-avatars.com/api/?name=YB+2014&background=8338ec&color=fff',
         students: students,
     },
@@ -148,7 +158,8 @@ export const yearbook: Yearbook[] = [
         id: 'yearbook-2012',
         title: 'Legends Edition',
         year: 2012,
-        description: 'Olympic athletes, published authors, and startup founders among these distinguished graduates',
+        description:
+            'Olympic athletes, published authors, and startup founders among these distinguished graduates',
         coverImagePath: 'https://ui-avatars.com/api/?name=YB+2012&background=fb5607&color=fff',
         students: students,
     },
@@ -167,5 +178,5 @@ export const yearbook: Yearbook[] = [
         description: 'The first graduating class of our new millennium curriculum',
         coverImagePath: 'https://ui-avatars.com/api/?name=YB+2010&background=3a86ff&color=fff',
         students: students,
-    }
+    },
 ];
